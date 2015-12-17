@@ -4,8 +4,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Enablement</groupId>
   <artifactId>KnowledgeProject</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <name>KnowledgeProject</name>
+  <distributionManagement>
+    <repository>
+      <id>rhcbap-nexus</id>
+      <url>http://nexus-rhcbap.rhcloud.com/nexus/content/repositories/releases/</url>
+    </repository>
+  </distributionManagement>
   <build>
     <plugins>
       <plugin>
@@ -16,11 +22,4 @@
       </plugin>
     </plugins>
   </build>
-  <distributionManagement>
-        <repository>
-            <id>rhcbap-nexus</id>
-            <url>http://nexus-rhcbap.rhcloud.com/nexus/content/repositories/releases/</url>
-        </repository>
-    </distributionManagement>
-
 </project>
